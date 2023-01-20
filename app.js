@@ -8,7 +8,8 @@ var movements = ["loaded carry", "squat", "hinge", "superior pull",
 "horizontal pull", "inferior pull", "superior push", 
 "horizontal push", "inferior push", "gait", "jump", "crawl",
 "rotation", "trunk extension", "trunk flexion", "lift from ground",
-"throw", "climb", "swim", "wild card"]
+"throw", "climb", "swim", "gluteofemoral", "upper body pull",
+"upper body push", "wild card"]
 
 function emom() {
   results.innerHTML = movements[Math.floor(Math.random() * movements.length)];
