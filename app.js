@@ -124,3 +124,5 @@ function random() {
 // SOURCE for array shuffle code: https://www.w3schools.com/js/js_array_sort.asp
 
 // SOURCE for array slice code: https://www.w3schools.com/js/js_array_methods.asp
+
+// SOURCE of idea and syntax for buttons 4 and 5 results display fix: Head First JavaScript book by Eric Freeman and Elisabeth Robson- Chap 4 Phrase-O-Matic example code
