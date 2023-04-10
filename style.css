@@ -37,10 +37,28 @@ header {
 
 .suggestions {
   width: 40vw;
+  padding: 20px;
 }
 
 .bottom {
   padding: 20px 40px;
   justify-content: center;
   background-color: lightgray;
+}
+
+.bottomheader {
+  padding: 40px;
+}
+
+.allparts {
+  justify-content: space-between;
+}
+
+.part1, .part2, .part3 {
+  max-width: 30vw;
+  min-width: 200px;
+}
+
+.finalnote {
+  padding: 20px 40px;
 }
