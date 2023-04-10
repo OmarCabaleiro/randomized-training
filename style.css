@@ -1,3 +1,45 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+}
+
+.top {
+  padding: 0 40px;
+}
+
+.generator {
+  background-color: black;
+  color: white;
+  height: 220px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.buttons {
+  min-width: 40vw;
+  justify-content: space-between;
+}
+
+.btn1, .btn2, .btn3, .btnC, .btnR {
+  background-color: blue;
+  color: white;
+}
+
+.suggestions {
+  min-width: 40vw;
+}
+
+/*
 header {
   text-align: center;
 }
@@ -10,3 +52,4 @@ header {
 h2 {
   text-align: center;
 }
+*/

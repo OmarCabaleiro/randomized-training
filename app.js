@@ -11,35 +11,25 @@ var movements = ["loaded carry", "squat", "hinge", "superior pull",
 "throw", "climb", "swim", "gluteofemoral", "upper body pull",
 "upper body push", "wild card"]
 
+// draw 1 random movement pattern from array
 function emom() {
   results.innerHTML = movements[Math.floor(Math.random() * movements.length)];
 }
 
+// draw 2 random movement patterns from array
 function couplet() {
   results.innerHTML = movements[Math.floor(Math.random() * movements.length)] + ",<br>" +
     movements[Math.floor(Math.random() * movements.length)];
 }
 
+// draw 3 random movement patterns from array
 function triplet() {
   results.innerHTML = movements[Math.floor(Math.random() * movements.length)] + ",<br>" +
     movements[Math.floor(Math.random() * movements.length)] + ",<br>" +
     movements[Math.floor(Math.random() * movements.length)];
 }
 
-/* function chipper() {
-  movements.sort(function(){return 0.5 - Math.random()});
-  const arr4 = movements.slice(0, 4);
-  const arr5 = movements.slice(0, 5);
-  const arr6 = movements.slice(0, 6);
-  const arr7 = movements.slice(0, 7);
-  const arr8 = movements.slice(0, 8);
-  const arr9 = movements.slice(0, 9);
-  const arr10 = movements.slice(0, 10);
-  const arr410 = [arr4, arr5, arr6, arr7, arr8, arr9, arr10];
-  results.innerHTML = arr410[Math.floor(Math.random() * arr410.length)];
-} */
-
-// trying to clean up button 4 result display
+// randomly draw 4-10 movement patterns from array, numbered
 function chipper() {
   movements.sort(function(){return 0.5 - Math.random()});
   const arr4 = movements.slice(0, 4);
@@ -67,23 +57,7 @@ function chipper() {
   results.innerHTML = arr410[Math.floor(Math.random() * arr410.length)];
 }
 
-/* function random() {
-  movements.sort(function(){return 0.5 - Math.random()});
-  const arr1 = movements.slice(0, 1);
-  const arr2 = movements.slice(0, 2);
-  const arr3 = movements.slice(0, 3);
-  const arr4 = movements.slice(0, 4);
-  const arr5 = movements.slice(0, 5);
-  const arr6 = movements.slice(0, 6);
-  const arr7 = movements.slice(0, 7);
-  const arr8 = movements.slice(0, 8);
-  const arr9 = movements.slice(0, 9);
-  const arr10 = movements.slice(0, 10);
-  const arr110 = [arr1, arr2, arr3, arr4, arr5, arr6, arr7, arr8, arr9, arr10];
-  results.innerHTML = arr110[Math.floor(Math.random() * arr110.length)];
-} */
-
-// it worked for button 4 so, button 5 redux:
+// randomly draw 1-10 movement patterns from array, numbered
 function random() {
   movements.sort(function(){return 0.5 - Math.random()});
   const arr1 = movements.slice(0, 1);
@@ -119,11 +93,3 @@ function random() {
   const arr110 = [result1, result2, result3, result4, result5, result6, result7, result8, result9, result10];
   results.innerHTML = arr110[Math.floor(Math.random() * arr110.length)];
 }
-
-// SOURCE for 1 exercise code: https://www.geeksforgeeks.org/how-to-select-a-random-element-from-array-in-javascript/
-
-// SOURCE for array shuffle code: https://www.w3schools.com/js/js_array_sort.asp
-
-// SOURCE for array slice code: https://www.w3schools.com/js/js_array_methods.asp
-
-// SOURCE of idea and syntax for buttons 4 and 5 results display fix: Head First JavaScript book by Eric Freeman and Elisabeth Robson- Chap 4 Phrase-O-Matic example code
