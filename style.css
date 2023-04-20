@@ -37,7 +37,11 @@ header {
 
 .suggestions {
   width: 40vw;
-  padding: 20px;
+  padding: 0 20px;
+}
+
+.suggestionsubtext {
+  padding-bottom: 20px;
 }
 
 .bottom {
