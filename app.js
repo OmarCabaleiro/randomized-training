@@ -1,9 +1,3 @@
-var btn1 = document.getElementById('btn1');
-var btn2 = document.getElementById('btn2');
-var btn4 = document.getElementById('btn3');
-var btnC = document.getElementById('btnC');
-var btnR = document.getElementById('btnR');
-
 var movements = ["loaded carry", "squat", "hinge", "superior pull",
 "horizontal pull", "inferior pull", "superior push", 
 "horizontal push", "inferior push", "gait", "jump", "crawl",
